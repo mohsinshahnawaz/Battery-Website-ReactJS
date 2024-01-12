@@ -1,0 +1,28 @@
+.new-arrival-main-container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-bottom: 50px;
+}
+.new-arrival-heading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.arrival-border {
+  width: 20px;
+  height: 40px;
+  border-radius: 4px;
+  background: #db4444;
+}
+.arrival-item {
+  font-family: "Inter";
+  font-size: 36px;
+  font-weight: 600;
+}
+.arrival-label {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 600;
+  color: #db4444;
+}

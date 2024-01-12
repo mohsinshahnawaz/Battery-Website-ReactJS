@@ -1,0 +1,31 @@
+.quantity {
+  display: flex;
+  align-items: center;
+  /* padding: 0px 35px; */
+  gap: 20px;
+}
+.counter-value {
+  width: 60px;
+  background: #fff;
+  font-size: 16px;
+  text-align: center;
+  height: 24px;
+  line-height: 24px;
+  display: block;
+  padding: 7px 5px;
+  color: #777;
+  border-radius: 50px;
+}
+
+.qty-heading {
+  font-size: 25px;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border-radius: 105px;
+  width: 45px;
+  height: 45px;
+}

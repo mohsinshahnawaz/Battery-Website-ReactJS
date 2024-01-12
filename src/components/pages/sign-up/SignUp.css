@@ -1,0 +1,134 @@
+.log-in-main-container {
+  display: flex;
+    height: 100%;
+    padding: 50px;
+}
+
+.left-box,
+.right-box {
+  width: 100%;
+}
+
+.left-box {
+  background-image: url("/src/assets/images/bat.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.right-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-items-box {
+  width: 80%;
+  max-width: 400px; 
+  margin: 0 auto; 
+}
+
+.log-in-content {
+  text-align: center;
+}
+
+.login-heading {
+  font-size: 36px;
+  font-weight: 600;
+  color: #333; 
+}
+
+.login-text {
+  font-size: 16px;
+  font-weight: 400;
+  color: #666; 
+}
+
+.login-input-fields {
+  margin-bottom: 20px;
+}
+
+.login-input {
+  width: 100%;
+}
+
+.authentication-box-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.authentication-btn-content {
+  background-color: #db4444;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.authentication-btn-content button {
+  padding: 14px;
+  color: #fff;
+  font-size: 16px;
+  text-transform: capitalize;
+  background-color: #db4444;
+  border-radius: 5px;
+  width: 100%;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.google-btn {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.google-btn button {
+  padding: 10px;
+  color: #000;
+  font-size: 16px;
+  text-transform: none;
+  font-weight: 500;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.already-have-account-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.already-have-text {
+  font-size: 16px;
+  font-weight: 400;
+  color: #666;
+}
+
+.login-text a {
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: underline;
+  color: #000;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .log-in-main-container {
+    flex-direction: column;
+    margin: 30px;
+  }
+
+  .left-box,
+  .right-box {
+    width: 100%;
+    border-radius: 0;
+  }
+
+  .right-items-box {
+    width: 100%;
+    max-width: none; 
+  }
+}

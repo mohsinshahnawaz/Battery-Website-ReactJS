@@ -1,0 +1,108 @@
+.arrival-cards-main-container {
+  display: flex;
+  gap: 20px;
+}
+
+.card-left {
+  height: 500px;
+  background-image: url('/src/assets/images/B1.jpg'); 
+  background-size: cover;
+  border-radius: 4px;
+  color: #fafafa;
+  gap: 14px;
+  width: 50%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px 20px;
+}
+
+.card-right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.card-top {
+  height: 240px;
+  background-image: url(/src/assets/images/B2.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: end;
+  border-radius: 3px;
+  background-position: center;
+}
+
+.card-bottom {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.left-card {
+  width: 50%;
+  height: 230px;
+  border-radius: 4px;
+  background-image: url('/src/assets/images/cell-three.jpg'); 
+  background-size: cover;
+  display: flex;
+  background-position: center;
+
+  align-items: flex-end;
+}
+
+.right-card {
+  width: 50%;
+  border-radius: 4px;
+  background-image: url('/src/assets/images/cell-three.jpg'); 
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  background-position: center;
+}
+
+/* Add the rest of your styles below this line */
+.title {
+  font-family: "Inter";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.description {
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.shop-now-btn {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.shop-now-btn button {
+  color: #fafafa;
+  text-transform: capitalize;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: underline;
+  padding-left: 2px;
+}
+
+.shop-now-btn button:hover {
+  text-decoration: underline;
+}
+.card-top-content{
+padding: 20px 20px;
+color: white;
+}
+.card-bottom-content{
+padding: 20px 20px;
+}

@@ -1,0 +1,17 @@
+.sales-container span {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  padding: 15px 0px;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 400;
+  gap: 10px;
+}
+
+.sales-container a {
+  cursor: pointer;
+  color: #fff;
+}

@@ -1,0 +1,147 @@
+/* General styling for larger screens */
+.contact-us-main-container {
+  display: flex;
+  padding: 70px 70px;
+  gap: 50px;
+}
+
+.contact-left-box {
+  width: 35%;
+  padding: 30px;
+  box-shadow: 0px 1px 13px 0px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  background: #fff;
+}
+
+.contact-items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 15px;
+  font-family: "Poppins";
+}
+
+.image-box {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+hr {
+  color: rgba(0, 0, 0, 0.5);
+  margin: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.heading {
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.contact-number-text {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.contact-right-box {
+  width: 65%;
+  box-shadow: 0px 1px 13px 0px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 40px;
+}
+
+.MuiFormControl-root {
+  gap: 30px;
+}
+
+.form-input-fields {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.form-input-fields input {
+  width: calc(1000% - 10px);
+  background-color: #f5f5f5;
+  font-family: "Poppins";
+  outline: none;
+  border-radius: 4px;
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border: none !important;
+}
+
+.form-input-fields label {
+  color: rgba(0, 0, 0, 0.45);
+  font-family: "Poppins";
+}
+
+.text-area textarea {
+  width: 100%;
+  font-size: 16px;
+  padding: 20px 0px 20px 5px;
+  border-radius: 4px;
+  display: flex;
+  background-color: #f5f5f5;
+  border: none;
+  font-family: "Poppins";
+  resize: none;
+  outline: none;
+}
+
+.text-area::placeholder {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.45);
+}
+
+.send-message-btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.send-message-btn button {
+  background-color: #db4444;
+  border-radius: 4px;
+  padding: 16px 48px;
+  color: #fff;
+  font-family: "Poppins";
+  text-transform: capitalize;
+}
+
+.send-message-btn button:hover {
+  background-color: #db4444;
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+  .contact-us-main-container {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .contact-left-box,
+  .contact-right-box {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+  .image-box {
+    justify-content: center;
+  }
+  .send-message-btn {
+    justify-content: center;
+}
+  .form-input-fields input {
+    width: 100%;
+  }
+}
